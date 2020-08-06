@@ -14,10 +14,11 @@ int main(void) {
             printf("Round %d :heads\n",i+1);
             heads++;
         }
-        else 
+        else {
             printf("Round %d ;tails\n",i+1);
             tails++;
-    }
+        }
+        }
     printf("Heads:%d,Tails:%d\n",heads,tails);
 
     if(heads>tails) printf("%s won",str);
